@@ -1,0 +1,13 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+node_modules/
+
+
+# Налаштування IDE
+.vscode/
+.idea/
+
+# Секрети та логи
+.env
+*.log   
