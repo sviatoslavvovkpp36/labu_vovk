@@ -9,8 +9,10 @@
 <body>
 
     <div class="container">
+        <!-- Блок для відображення статусу середовища -->
+        <div id="env-status" class="status-badge"></div>
+        
         <h2>Мій список завдань</h2>
-        <h1>👇👇👇👇👇👇👇👇👇👇</h1>
         <div class="input-group">
             <input type="text" id="todoInput" placeholder="Що потрібно зробити?">
             <button onclick="addTask()">Додати</button>
@@ -18,6 +20,6 @@
         <ul id="todoList"></ul>
     </div>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

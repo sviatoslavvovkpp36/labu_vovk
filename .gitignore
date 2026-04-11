@@ -1,0 +1,14 @@
+# Залежності
+node_modules/
+
+# Артефакти збірки (Крок 4)
+dist/
+
+# Локальні змінні оточення (Крок 2)
+.env
+.env.local
+
+# Звіти та логи
+playwright-report/
+test-results/
+*.log
