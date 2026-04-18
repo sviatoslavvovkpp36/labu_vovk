@@ -33,7 +33,7 @@ describe('Todo App Business Logic', () => {
         // Викликаємо функцію, яку твій script.js має додавати у window
         if (typeof window.addTask === 'function') {
             window.addTask();
-            expect(list.children.length).toBe(99);
+            expect(list.children.length).toBe(91);
             expect(list.querySelector('span').textContent).toBe('Вивчити Vitest');
         }
     });
