@@ -1,4 +1,4 @@
-![CI/CD Pipeline] (https://github.com/sviatoslavvovkpp36/labu_vovk/actions/workflows/ci-cd.yml/badge.svg?branch=main)
+[![CI/CD](https://github.com/sviatoslavvovkpp36/labu_vovk/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/sviatoslavvovkpp36/labu_vovk/actions/workflows/ci-cd.yml)
 # list of tasks
 
 ## Опис
