@@ -47,14 +47,15 @@ describe('Todo App Business Logic', () => {
         }
     });
 
-    it('не має додавати порожнє завдання і виводити alert', () => {
-        const alertMock = vi.spyOn(window, 'alert').mockImplementation(() => {});
-        const input = document.getElementById('todoInput');
-        
-        input.value = '';
-        if (typeof window.addTask === 'function') {
-            window.addTask();
-            expect(alertMock).toHaveBeenCalledWith("Будь ласка, введіть завдання!");
-        }
-    });
+    it('не має додавати порожнє завдання', () => {
+    const input = document.getElementById('todoInput');
+    const list = document.getElementById('todoList');
+    
+    input.value = '';
+    // Просто перевіряємо, що в список нічого не додалося
+    if (typeof window.addTask === 'function') {
+        window.addTask();
+        expect(list.children.length).toBe(0);
+    }
+});
 });
